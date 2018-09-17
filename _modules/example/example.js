@@ -1,0 +1,1 @@
+/* This could be a javascript for a specific module e.g. a calendar */

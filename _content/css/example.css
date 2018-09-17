@@ -1,0 +1,13 @@
+section#content {
+    position: relative;
+}
+
+.controls {
+    position: absolute;
+    top: 50px;
+    right: 40px;
+}
+
+.controls img {
+    height: 40px;
+}

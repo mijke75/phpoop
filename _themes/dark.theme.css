@@ -1,0 +1,28 @@
+body {
+	background-color: #666;
+	color: #ccc;
+}
+
+header {
+	background-color: #333;
+	border-bottom: 1px solid #eee;
+}
+
+nav > ul > li {
+	background: #666;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+nav > ul > li > a {
+	color: #ccc;
+}
+
+nav > ul > li.active a {
+	color: #777;
+}
+
+footer {
+	background-color: #333;
+}

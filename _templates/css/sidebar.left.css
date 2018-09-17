@@ -1,0 +1,25 @@
+.container {
+    /* substract 20px + 2*40px (header including padding) + 20px + 2*40px (footer including padding) */
+    min-height: calc(100vh - 200px);
+}
+.container:after {
+    clear: both;
+}
+.container section#content {
+    float: right;
+    /* substract 2*40px (padding aside section) + 300px + 2*10px (footer including padding) */
+    width: calc(100vw - 400px);
+}
+
+.container aside#sidebar {
+    float: left;
+    width: 240px;
+    /* substract 20px + 2*40px (header including padding) + 2*40px (padding aside section) + 20px + 2*40px (footer including padding) */
+    min-height: calc(100vh - 280px);
+    padding: 40px;
+    background-color: #ddd;
+}
+
+.container aside#sidebar a {
+    color: #888;
+}
